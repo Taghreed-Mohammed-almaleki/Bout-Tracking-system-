@@ -1,0 +1,39 @@
+{
+  "boats": [
+    {
+      "boatId": "B0001",
+      "chipId": "CHIP001",
+      "latitude": 20.5,
+      "longitude": 40.2,
+      "timestamp": "2025-12-07 10:00"
+    },
+    {
+      "boatId": "B0002",
+      "chipId": "CHIP002",
+      "latitude": 21.0,
+      "longitude": 40.5,
+      "timestamp": "2025-12-07 10:15"
+    },
+    {
+      "boatId": "B0003",
+      "chipId": "CHIP003",
+      "latitude": 19.5,
+      "longitude": 39.8,
+      "timestamp": "2025-12-07 10:30"
+    },
+    {
+      "boatId": "B0004",
+      "chipId": "CHIP004",
+      "latitude": 22.0,
+      "longitude": 41.0,
+      "timestamp": "2025-12-07 10:45"
+    },
+    {
+      "boatId": "B0005",
+      "chipId": "CHIP005",
+      "latitude": 20.8,
+      "longitude": 40.9,
+      "timestamp": "2025-12-07 11:00"
+    }
+  ]
+}

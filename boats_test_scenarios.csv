@@ -1,0 +1,29 @@
+# Test Scenarios - Different Boat Situations
+# This file demonstrates various boat statuses and violations
+
+# Scenario 1: Normal boats (GREEN) - Inside permitted area
+B0001,CHIP001,20.5,40.2,2025-12-07 10:00
+B0002,CHIP002,21.0,40.5,2025-12-07 10:15
+B0003,CHIP003,19.5,39.8,2025-12-07 10:30
+
+# Scenario 2: Warning boats (YELLOW) - Near boundaries
+B0004,CHIP004,18.05,39.5,2025-12-07 11:00
+B0005,CHIP005,22.95,41.5,2025-12-07 11:15
+
+# Scenario 3: Alert boats (RED) - Outside permitted area
+B0006,CHIP006,25.0,43.0,2025-12-07 12:00
+B0007,CHIP007,17.0,38.0,2025-12-07 12:15
+
+# Scenario 4: Alert boats (RED) - In restricted zone (20.5-21.0, 40.5-41.0)
+B0008,CHIP008,20.7,40.7,2025-12-07 13:00
+B0009,CHIP009,20.8,40.9,2025-12-07 13:15
+
+# Scenario 5: Alert boats (RED) - Outside operating hours
+# Operating hours: 06:00 - 18:00
+B0010,CHIP010,20.0,40.0,2025-12-07 05:30
+B0011,CHIP011,21.5,40.8,2025-12-07 19:00
+
+# Scenario 6: Mixed - Some normal, some violations
+B0012,CHIP012,22.0,41.0,2025-12-07 14:00
+B0013,CHIP013,19.0,39.5,2025-12-07 14:15
+B0014,CHIP014,21.5,40.3,2025-12-07 14:30
